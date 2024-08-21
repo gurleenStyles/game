@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake and Ladder Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4"><p style="color: white;">Snake and Ladder Game</p></h1></div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="board">
+                    <div class="grid-container">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="controls">
+                    <p>Player 1 Position: <span id="player1-pos">1</span></p>
+                    <p>Player 2 Position: <span id="player2-pos">1</span></p>
+                    <button id="roll-dice" class="btn btn-primary">Roll Dice</button>
+                    <p id="dice-result">Dice Result: <span id="dice-number"></span></p>
+                    <p id="current-player">Current Player: <span id="player-turn">Player 1</span></p>
+                    <p id="game-status"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
